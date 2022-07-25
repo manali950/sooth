@@ -1,0 +1,251 @@
+html {
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+section {
+    display: block;
+}
+
+.row-hero-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.hero-banner {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    /* 60vh = 60% of the viewport height*/
+    padding: 0;
+    /* No padding */
+    margin: 0;
+    /* No margins */
+    margin-bottom: -126px;
+    background-image: url(./../images/ezcema@2x.png), url(./../images/plant@2x.png), url(./../images/plant-1@2x.png), url(./../images/updated_Header@2x.png);
+    background-size: 521px, 491px, 376px, cover;
+    background-position: 70% 3%, 54% 18%, 74% -14%, 100% 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    /* If you want the whole image visible try 'contain'*/
+}
+
+
+
+.container-hero {
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.hero-banner-text {
+    padding: 5vw 2vw 2vw;
+    text-align: justify;
+}
+
+.hero-banner-info {
+    /* position: relative; */
+    /* text-align: center; */
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.btn-shoping-product {
+    display: flex;
+    border: 1px solid #354E57;
+    outline: 0;
+    display: inline-block;
+    padding: 11px 40px 10px 41px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #2E2E22;
+    font-weight: bold;
+    background-color: #F7F7F7;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.hero-banner-title {
+    color: #354E57;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    margin: 18px 0px;
+}
+
+.hero-banner-titleinfo {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #354E57;
+    /* margin-top: -18px; */
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img-fluid {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: 314px;
+    right: 283px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-hero {
+        max-width: 1140px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container-hero {
+        max-width: 960px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-hero {
+        max-width: 720px;
+    }
+
+    .hero-banner {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        height: 77vh;
+        padding: 0px;
+        margin: 0;
+        /* margin-bottom: -88px; */
+        background-image: url(./../images/ezcema@2x.png), url(./../images/plant@2x.png), url(./../images/plant-1@2x.png), url(./../images/updated_Header@2x.png);
+        background-size: 423px, 357px, 240px, 1080px;
+        background-position: 45% -123%, 16% 10%, 57% -29%, 101% 100%;
+        background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    }
+
+    .hero-banner-text {
+        padding: 50vw 0vw 2vw;
+        text-align: left;
+    }
+    .hero-banner-info {
+        width: 87%;
+        margin: 0px 21px 0px 21px;
+    }
+    .hero-banner-title{
+        font-size: 44px;
+    }
+    .btn-shoping-product {
+        margin: 0px 60px 0px 70px;
+        background-color: #e2e6e9;
+
+    }
+
+    .secondary-banner {
+        
+        margin-top: 245px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container-hero {
+        max-width: 540px;
+    }
+
+    .hero-banner {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        height: 77vh;
+        padding: 0px;
+        margin: 0;
+        /* margin-bottom: -88px; */
+        background-image: url(./../images/ezcema@2x.png), url(./../images/plant@2x.png), url(./../images/plant-1@2x.png), url(./../images/updated_Header@2x.png);
+        background-size: 300px, 308px, 181px, cover;
+        background-position: 75% 45%, -4% 47%, 79% 22%, 70% 100%;
+        background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    }
+
+    .hero-banner-text {
+        padding: 83vw 0vw 2vw;
+        text-align: left;
+    }
+    .hero-banner-info {
+        width: 87%;
+        margin: 0px 21px 0px 21px;
+    }
+    .hero-banner-title{
+        font-size: 44px;
+    }
+    .btn-shoping-product {
+        margin: 0px 60px 0px 70px;
+        background-color: #e2e6e9;
+
+    }
+
+    .secondary-banner {
+        
+        margin-top: 245px;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .container-hero {
+        max-width: 540px;
+    }
+
+    .hero-banner {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        height: 77vh;
+        padding: 0px;
+        margin: 0;
+        /* margin-bottom: -88px; */
+        background-image: url(./../images/ezcema@2x.png), url(./../images/plant@2x.png), url(./../images/plant-1@2x.png), url(./../images/updated_Header@2x.png);
+        background-size: 300px, 308px, 181px, cover;
+        background-position: 75% 45%, -67% 47%, 79% 22%, 70% 100%;
+        background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    }
+
+    .hero-banner-text {
+        padding: 92vw 0vw 2vw;
+        text-align: left;
+    }
+    .hero-banner-info {
+        width: 87%;
+        margin: 0px 21px 0px 21px;
+    }
+    .hero-banner-title{
+        font-size: 44px;
+    }
+    .btn-shoping-product {
+        margin: 0px 60px 0px 70px;
+        background-color: #e2e6e9;
+
+    }
+
+    .secondary-banner {
+        
+        margin-top: 245px;
+    }
+
+
+}
+
+

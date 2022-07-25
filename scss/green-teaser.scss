@@ -1,0 +1,258 @@
+@import "variable";
+
+.green-teaser {
+	background: $green-teaser-547665;
+}
+.pink-teaser {
+	background: $pink-teaser-C6B9B6;
+}
+.green-teaser__content {
+	padding: 253px 21px 180px 77px;
+	margin: 0 auto;
+}
+.pink-teaser__content {
+	padding: 253px 28px 230px 45px;
+	margin: 0 auto;
+}
+.green-teaser__text {
+	display: contents;
+	flex-grow: 1;
+}
+.green-teaser-title {
+	font-size: 40px;
+	line-height: 55px;
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.green-teaser-info {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #EEF2F4;
+	opacity: 1;
+}
+.pink-teaser-info {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #2E2E22;
+	opacity: 1;
+}
+.green-teaser-btn {
+	display: flex;
+	border: 1px solid #FFFFFF;
+	outline: 0;
+	display: inline-block;
+	padding: 13px 56px 13px 51px;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0px;
+	color: #F7F5E6;
+	font-weight: bold;
+	background-color: $green-teaser-547665;
+	text-align: left;
+	cursor: pointer;
+}
+.pink-teaser-btn {
+	display: flex;
+	border: 1px solid #956A53;
+	outline: 0;
+	display: inline-block;
+	padding: 13px 56px 13px 51px;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0px;
+	color: #2E2E22;
+	font-weight: bold;
+	background-color: $pink-teaser-C6B9B6;
+	text-align: left;
+	cursor: pointer;
+}
+.green-teaser-img {
+	width: -webkit-fill-available;
+	height: 731px;
+	overflow: hidden;
+	img {
+		position: relative;
+		width: 137%;
+		bottom: 35%;
+		right: 0%;
+	}
+}
+.pink-teaser-img {
+	width: -webkit-fill-available;
+	height: 731px;
+	overflow: hidden;
+	img {
+		position: relative;
+		bottom: 80%;
+		right: 21%;
+	}
+}
+
+
+@media screen and (max-width: 1275px) {
+    .container-0-61 {
+        padding: 0px !important;
+    }
+
+    .green-teaser__content {
+        padding: 128px 21px 93px 20px;
+    }
+
+    .green-teaser-img {
+       height: 940px;
+    }
+
+    .green-teaser-img img {
+        bottom: 42%;
+        right: 26%;
+        width: 184%;
+      
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-0-61 {
+        padding: 0px !important;
+    }
+
+    .green-teaser__content {
+        padding: 128px 21px 93px 20px;
+    }
+
+    .green-teaser-img {
+        height: 870px;
+    }
+
+    .green-teaser-img img {
+        bottom: 42%;
+        right: 80%;
+      
+    }
+    .pink-teaser__content {
+        padding: 77px 21px 93px 20px;
+    }
+
+    .pink-teaser-img {
+       height: 700px;
+    }
+
+    .pink-teaser-img img {
+        bottom: 0%;
+        right: 0%;
+        width: 143%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container-0-61 {
+        padding: 0px !important;
+    }
+
+    .green-teaser__content {
+        padding: 128px 21px 93px 20px;
+    }
+
+    .green-teaser-img {
+       height: 563px;
+    }
+
+    .green-teaser-img img {
+        width: 124%;
+        right: 0%;
+        bottom: 15%;
+    }
+    .pink-teaser__content {
+        padding: 77px 21px 93px 20px;
+    }
+
+    .pink-teaser-img {
+       height: 700px;
+    }
+
+    .pink-teaser-img img {
+        bottom: 23%;
+        right: 2%;
+        width: 119%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .container-0-61 {
+        padding: 0px !important;
+    }
+
+    .green-teaser__content {
+        padding: 128px 21px 93px 20px;
+    }
+
+    .green-teaser-img {
+        height: 563px;
+    }
+
+    .green-teaser-img img {
+        width: 124%;
+        right: 0%;
+        bottom: 15%;
+      
+    }
+    .pink-teaser__content {
+        padding: 77px 21px 93px 20px;
+    }
+
+    .pink-teaser-img {
+       height: 600px;
+    }
+
+    .pink-teaser-img img {
+        bottom: 0%;
+        right: 0%;
+        width: 150%;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .container-0-61 {
+        padding: 0px !important;
+    }
+
+    .green-teaser__content {
+        padding: 75px 21px 93px 20px;
+    }
+
+    .green-teaser-img {
+       height: 563px;
+    }
+
+    .green-teaser-img img {
+        width: 124%;
+        right: 0%;
+        bottom: 15%;
+    }
+    .pink-teaser__content {
+        padding: 77px 21px 93px 20px;
+    }
+
+    .pink-teaser-img {
+       height: 600px;
+    }
+
+    .pink-teaser-img img {
+        bottom: 0%;
+        right: 0%;
+        width: 150%;
+    }
+
+
+}

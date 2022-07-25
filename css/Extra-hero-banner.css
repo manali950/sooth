@@ -1,0 +1,125 @@
+.hero-banner {
+  /* background-image: linear-gradient(#e0e4e723, #e0e4e723),
+      url("./../images/updated_Header@2x.png"); */
+  background-image: url("./../images/updated_Header@2x.png");
+  /* background-color: #e0e4e7; */
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.hero-text {
+   
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: black; 
+    text-align: justify;
+    padding: 99px 0px 0px 76px;
+}
+
+.hero-text button {
+  display: flex;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px 13px;
+  color: #354E57;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  /* background-color: #354E57;
+    color: white; */
+  cursor: context-menu;
+}
+
+.header-left-hero-banner {
+  /* float: left;
+  padding: 111px 39px; */
+}
+
+.pos-img1 {
+  position: absolute;
+  top: 2px;
+  left: 420px;
+  width: 555px;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-full);
+  padding: 30px;
+  /* box-shadow: 0 25px 98px 0 rgb(0 0 0 / 8%); */
+}
+
+.pos-img2 {
+  position: absolute;
+  top: -64px;
+  left: 781px;
+  width: 346px;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-full);
+  padding: 30px;
+  /* box-shadow: 0 25px 98px 0 rgb(0 0 0 / 8%); */
+}
+
+.pos-img3 {
+  position: absolute;
+  top: -40px;
+  left: 598px;
+  width: 555px;
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-full);
+  padding: 30px;
+  /* box-shadow: 0 25px 98px 0 rgb(0 0 0 / 8%); */
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  .hero-banner {
+    background-image: url("./../images/updated_Header.png");
+    height: 87%;
+    background-position: right;
+  }
+  .pos-img1 {
+    top: 26px;
+    left: 258px;
+    width: 129px;
+  }
+  .pos-img2 {
+    top: 26px;
+    left: 258px;
+    width: 129px;
+  }
+  .pos-img3 {
+    top: 26px;
+    left: 258px;
+    width: 129px;
+  }
+}
+@media screen and (max-width: 600px)  {
+  .hero-banner {
+    background-image: url("./../images/updated_Header.png");
+    height: 67%;
+    background-position: right;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 300px) {
+  .hero-banner {
+    background-image: url("./../images/updated_Header.png");
+    height: 67%;
+    background-position: right;
+  }
+}
+<script>
+    
+      (function ($, root) {
+        $("html").removeClass("no-js");
+      })(jQuery, this);
+    </script>
