@@ -1,0 +1,29 @@
+@import "variable";
+
+.secondary-banner {
+	background: $background-eef3f4;
+	border: 1px solid $background-547665;
+}
+.secondary-banner__content {
+	padding: 16px;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.secondary-banner__title {
+	flex-grow: 1;
+	font-size: 28px;
+	text-align: center;
+	color: #354E57;
+	font-weight: bolder;
+	line-height: 34px;
+	letter-spacing: 0px;
+	opacity: 1;
+	margin: 22px;
+}
+.secondary-banner__titleInfo {
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0px;
+	color: $background-354e57;
+}

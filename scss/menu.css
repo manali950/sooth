@@ -1,0 +1,120 @@
+.menu--fade {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  color: #222;
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  opacity: 0;
+  z-index: 1;
+}
+
+.menu__content {
+  background: #f7f7f7;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  overflow: scroll;
+}
+
+.menu__content > ul.menu-top-text {
+  position: absolute;
+  top: 43%;
+  left: 25%;
+  font-size: 40px;
+  font-weight: 500;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #354E57;
+}
+
+.menu__content > ul.menu-bottom-down-text {
+  position: absolute;
+  top: 84%;
+  left: 24%;
+  font-size: 12px;
+  line-height: 36px;
+  letter-spacing: 0.6px;
+  font-weight: 550;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #354E57;
+}
+
+.menu__content ul {
+  list-style: none;
+}
+
+.menu__close {
+  position: absolute;
+  top: 0;
+  right: 29rem;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  text-decoration: none;
+  color: #000;
+}
+
+.menu__close:after {
+  content: "+";
+  font-size: 2rem;
+}
+
+.mobile-close {
+  float: left !important;
+  top: 47px;
+  left: 58px;
+}
+
+.mobile-cart {
+  position: -webkit-sticky;
+  position: sticky;
+  float: right !important;
+  margin-right: 20px !important;
+  top: 65px;
+  left: 58px;
+  color: #293D45;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  font-weight: bold;
+}
+
+.menu__close:focus,
+.menu__close:hover,
+.menu__close:active {
+  text-decoration: none;
+}
+
+#menu-fade:target {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+#page:target .menu--fade {
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s, width 0s ease 0.5s, height 0s ease 0.5s;
+  -webkit-transition: opacity 0.5s, width 0s ease 0.5s, height 0s ease 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, width 0s ease 0.5s, height 0s ease 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, width 0s ease 0.5s, height 0s ease 0.5s;
+  transition: opacity 0.5s, transform 0.5s, width 0s ease 0.5s, height 0s ease 0.5s, -webkit-transform 0.5s;
+}
+
+.menu-top-text {
+  font-size: 24px !important;
+  line-height: 69px;
+  letter-spacing: 1.2px;
+}
+/*# sourceMappingURL=menu.css.map */
